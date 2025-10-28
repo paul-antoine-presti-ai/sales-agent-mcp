@@ -67,6 +67,12 @@ npm run inspector
 - `GET /mcp` - Returns "Method not allowed" (405)
 - `DELETE /mcp` - Returns "Method not allowed" (405)
 
+## Deploy
+
+Use the following button to deploy the server to Alpic
+
+[![Deploy on Alpic](https://assets.alpic.ai/button.svg)](https://app.alpic.ai/new/clone?repositoryUrl=https%3A%2F%2Fgithub.com%2Falpic-ai%2Fmcp-server-template-nodejs)
+
 ## Development
 
 ### Adding New Tools
