@@ -6,6 +6,13 @@ A TypeScript template for building MCP servers using Streamable HTTP transport.
 
 This template provides a foundation for creating MCP servers that can communicate with AI assistants and other MCP clients. It includes a simple HTTP server implementation with example tools, resource & prompts to help you get started building your own MCP integrations.
 
+## Deploy
+
+Use the following button to clone the repository and directly deploy the server to Alpic
+
+[![Deploy on Alpic](https://assets.alpic.ai/button.svg)](https://app.alpic.ai/new/clone?repositoryUrl=https%3A%2F%2Fgithub.com%2Falpic-ai%2Fmcp-server-template-nodejs)
+
+
 ## Prerequisites
 
 - Node.js 22+ (see `.nvmrc` for exact version)
@@ -67,11 +74,6 @@ npm run inspector
 - `GET /mcp` - Returns "Method not allowed" (405)
 - `DELETE /mcp` - Returns "Method not allowed" (405)
 
-## Deploy
-
-Use the following button to deploy the server to Alpic
-
-[![Deploy on Alpic](https://assets.alpic.ai/button.svg)](https://app.alpic.ai/new/clone?repositoryUrl=https%3A%2F%2Fgithub.com%2Falpic-ai%2Fmcp-server-template-nodejs)
 
 ## Development
 
