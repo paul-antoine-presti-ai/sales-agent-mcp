@@ -1,20 +1,24 @@
 {
-  "name": "mcp-server-template",
+  "name": "sales-agent-mcp",
   "version": "0.0.1",
   "private": true,
   "main": "dist/index.js",
-  "description": "Alpic MCP Server Template",
+  "description": "Sales Agent MCP Server with Fathom Integration",
   "files": [
     "dist"
   ],
   "bin": {
-    "mcp-server-template": "./dist/index.js"
+    "sales-agent-mcp": "./dist/index.js"
   },
   "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch --env-file=.env src/index.ts",
     "start": "node dist/index.js",
+    "postinstall": "npm run build",
     "inspector": "mcp-inspector http://localhost:3000/mcp"
   },
   "dependencies": {
